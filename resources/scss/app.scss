@@ -1,3 +1,81 @@
 @import "~bootstrap/scss/bootstrap";
+@import '@fortawesome/fontawesome-free/css/fontawesome.css';
+@import '@fortawesome/fontawesome-free/css/regular.css';
+@import '@fortawesome/fontawesome-free/css/solid.css';
+@import '@fortawesome/fontawesome-free/css/brands.css';
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 40px;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
 
 
+header {
+    height: 80px;
+    width: 100%;
+
+    .container {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 100%;
+
+        .logo-container {
+            width: 55px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        ul {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li a {
+                color: black;
+                padding: 20px 8px;
+                font-size: 15px;
+
+                &:hover {
+                    color: #0282f9;
+                }
+
+                &.active {
+                    color: #0282f9;
+                    border-bottom: 3px solid #0282f9;
+                }
+            }
+        }
+
+        .nav_search {
+            width: 10%;
+        }
+    }
+}
