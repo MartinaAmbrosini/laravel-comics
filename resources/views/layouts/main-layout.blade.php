@@ -14,6 +14,7 @@
 <body>
     <div class="text-center">
         @include('components.header')
+        @include('components.main')
         @yield('content')
         @include('components.footer')
     </div>

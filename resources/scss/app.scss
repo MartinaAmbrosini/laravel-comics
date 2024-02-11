@@ -31,6 +31,7 @@ a {
     text-decoration: none;
 }
 
+// HEADER 
 
 header {
     height: 80px;
@@ -79,6 +80,62 @@ header {
         }
     }
 }
+
+// MAIN 
+
+main {
+    background-color: #1c1c1c;
+
+    .jumbotron {
+        background-image: url(../../public/img/jumbotron.jpg);
+        height: 350px;
+        padding-top: 80px;
+        background-size: cover;
+        margin-bottom: 50px;
+        position: relative;
+
+        .container.jumbo {
+            position: absolute;
+            left: 20%;
+            bottom: -22px;
+            padding-bottom: 0;
+
+            .label {
+                background-color: #0282f9;
+                padding: 10px;
+                color: white;
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        padding-bottom: 50px;
+
+        .button {
+            background-color: #0282f9;
+            padding: 10px;
+            color: white;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            position: absolute;
+            left: 50%;
+            bottom: 0;
+            transform: translate(-50%);
+            width: 150px;
+            text-align: center;
+        }
+    }
+}
+
+// FOOTER
 
 footer {
     .features {
