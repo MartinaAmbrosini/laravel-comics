@@ -4,8 +4,4 @@
             <div class="label">CURRENT SERIES</div>
         </div>
     </div>
-    <div class="container">
-        <a href="#" class="button">LOAD MORE</a>
-    </div>
-
 </main>
